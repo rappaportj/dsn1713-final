@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/images/book-city-favicon-1.ico">
+  <title>Book City — Home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-maroon px-4">
+    <a class="navbar-brand p-0" href="index.html">
+      <img src="images/book-city-logo.png" alt="Book City Logo" style="height: 40px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+        <li class="nav-item"><a class="nav-link" href="product.html">Shop</a></li>
+      </ul>
+      <form class="d-flex me-3">
+        <div class="input-group">
+          <span class="input-group-text bg-light border-0"><span class="material-icons">search</span></span>
+          <input type="search" class="form-control" placeholder="Search">
+        </div>
+      </form>
+      <div class="d-flex align-items-center gap-2">
+        <span class="material-icons text-white">person</span>
+        <span class="material-icons text-white">shopping_cart</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-cover text-white text-start hero-section" style="background-image: url('images/top-of-book.jpg');">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Welcome to<br>Book City</h1>
+      <p class="lead">Fiercely independent since 1976</p>
+      <a href="#" class="btn btn-warning mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+<section class="container-fluid px-md-5 py-5">
+  <!-- Shop Now -->
+  <div class="row align-items-center mb-5 gx-3">
+    <div class="col-lg-6 text-center">
+      <img src="images/colorful-books.jpg" class="img-fluid shadow-sm rounded" style="max-width: 70%; max-height: 500px; object-fit: cover; transform: rotate(90deg);" alt="Shop Books">
+    </div>
+    <div class="col-lg-6" style="max-width: 500px;">
+      <h3 class="text-maroon fw-bold mb-3">Shop Now!</h3>
+      <p>Explore our wide collection of books across every genre, from timeless classics to today's bestselling reads. Whether you're discovering a new favourite or searching for the perfect gift, there's something for every kind of reader. Start exploring and find your next great story.</p>
+      <a href="product.html" class="btn btn-warning mt-3 px-4 py-2 fw-semibold">Learn More</a>
+    </div>
+  </div>
+
+  <!-- Community -->
+  <div class="row align-items-center mb-5 gx-3 flex-lg-row-reverse">
+    <div class="col-lg-6 text-center">
+      <img src="images/girl-in-bookstore.jpg" class="img-fluid shadow-sm rounded" style="max-width: 70%; max-height: 500px;" alt="Community">
+    </div>
+    <div class="col-lg-6" style="max-width: 500px;">
+      <h3 class="text-maroon fw-bold mb-3">Community</h3>
+      <p>Join a vibrant community of book lovers who come together to share stories, inspiration, and a passion for reading. From events and discussions to recommendations and connections, there's always something happening. Be part of a space where readers truly belong.</p>
+      <a href="community.html" class="btn btn-warning mt-3 px-4 py-2 fw-semibold">Learn More</a>
+    </div>
+  </div>
+
+  <!-- About Us -->
+  <div class="row align-items-center gx-3">
+    <div class="col-lg-6 text-center">
+      <img src="images/book-open.jpg" class="img-fluid shadow-sm rounded" style="max-width: 70%; max-height: 500px;" alt="About">
+    </div>
+    <div class="col-lg-6" style="max-width: 500px;">
+      <h3 class="text-maroon fw-bold mb-3">About Us</h3>
+      <p>Book City has proudly served Toronto's readers for decades, offering a welcoming haven for book enthusiasts of all ages. Our mission is rooted in fostering a love of literature and supporting a thriving local reading culture. Learn more about our history, values, and vision for the future.
+</p>
+      <a href="about.html" class="btn btn-warning mt-3 px-4 py-2 fw-semibold">Learn More</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-maroon text-white py-4 mt-5">
+  <div class="container pt-4">
+    <div class="d-flex justify-content-between align-items-start">
+        
+      <!-- Contact Us -->
+      <div class="d-flex flex-column align-items-start gap-1">
+        <h5 class="mb-2">Contact Us</h5>
+        <p class="mb-1">
+          <span class="material-icons align-middle me-2">email</span>
+          <a href="mailto:beach@bookcity.ca" class="text-white">beach@bookcity.ca</a>
+        </p>
+        <p>
+          <span class="material-icons align-middle me-2">phone</span>
+          <a href="tel:416-698-1444" class="text-white">416-698-1444</a>
+        </p>
+      </div>
+
+      <!-- Visit Us -->
+      <div class="d-flex flex-column align-items-end gap-2">
+        <h5 class="mb-2">Visit Us</h5>
+        <div class="d-flex gap-3">
+          <img src="images/insta-logo.png" alt="Instagram" class="social-icon">
+          <img src="images/fb-logo.png" alt="Facebook" class="social-icon">
+          <img src="images/twitter-logo.png" alt="Twitter / X" class="social-icon">
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-4 small">&copy; 2018 — Book City | All rights reserved</p>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
